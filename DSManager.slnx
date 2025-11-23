@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="DSManager.vcxproj" />
+  <Project Path="DSManager.vcxproj" Id="64916b1e-6a77-4899-bd74-052a08c7482e" />
 </Solution>
