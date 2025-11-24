@@ -3,9 +3,17 @@
 #include <sstream>
 #include <vector>
 
+#include "LinkedList.h"
+
 void RunCommand(std::string name,std::vector<std::string> cmdRun) {
-	std::cout << cmdRun[0];
-	std::cout << name;
+	
+	for (int i = 0; i < cmdRun.size(); i++) {
+		//temp need to make functional system that can see order of commands
+		if (cmdRun[i] == "new") {
+			LinkedList LL;
+		}
+	}
+
 	//TOdo Run the command and make the linkedlist class
 }
 
@@ -65,6 +73,7 @@ void UserInput() {
 		
 	//run command
 		RunCommand(name, cmdRun);
+
 }
 
 //Prints text for startup, errors, etc..
@@ -95,7 +104,7 @@ int main() {
 
 	//Startup
 	displayHandler(1);
-
+	
 
 
 	return 0;
