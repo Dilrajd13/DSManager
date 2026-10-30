@@ -1,1 +1,24 @@
-// Explain how to use and list availiable commands printed when help command run
+Data Structure Manager commands
+
+  help                         Show this list
+  DSLS                         List every data structure you made (like ls)
+  new <type> <name>            Make a data structure
+                               Types: LL, stack, queue, heap, tree
+  view <name>                  Draw a data structure
+  add <name> <value>           Add a value
+  add <name> <value> head      Add to the front of a linked list
+  remove <name>                Remove the next element of a stack, queue or heap
+  remove <name> <value>        Remove a value from a linked list or tree
+  search <name> <value>        Check if a value is in a data structure
+  edit <name> <old> <new>      Replace a value in a linked list, heap or tree
+  rm <name>                    Delete a whole data structure
+  exit                         Close the program
+
+Example
+  new stack 'plates'
+  add 'plates' 5
+  add 'plates' 9
+  view 'plates'
+  remove 'plates'
+
+Quotes around names are optional. Names and values are one word each.

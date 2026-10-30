@@ -134,6 +134,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Heap.h" />
+    <ClInclude Include="BinaryTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
